@@ -22,5 +22,5 @@ CoinScore is licensed under the GNU General Public License v3.0.
 <br><code>© 2019 - 2023 aero</code>
 
 # Credits
-CoinScore was written by aeroDEV.
-<br>Thanks to ifera and JackMD for making an customisable ScoreHud.
+
+<br>Thanks to ifera and JackMD.
