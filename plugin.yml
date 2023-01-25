@@ -3,5 +3,5 @@ main: aero\CoinScore\Loader
 api: 4.0.0
 version: 1.0.0
 author: aero
-description: A plugin implementing some basic tags for ScoreHud. based On EcoApiScore
+description: A plugin implementing some basic tags for ScoreHud.
 depend: [ScoreHud, CoinAPI]
