@@ -30,7 +30,7 @@ class EventListener implements Listener{
 		$player = $this->plugin->getServer()->getPlayerByPrefix($username);
 
 		if($player instanceof Player && $player->isOnline()){
-			(new PlayerTagUpdateEvent($player, new ScoreTag("coin.aero", (string) $event->getCoin())))->call();
+			(new PlayerTagUpdateEvent($player, new ScoreTag("coinscore.coin", (string) $event->getCoin())))->call();
 		}
 	}
 }
