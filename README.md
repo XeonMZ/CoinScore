@@ -11,7 +11,7 @@ BedrockClans has built-in support for <a href="https://github.com/Ifera/ScoreHud
 
 | Tag                       | Description                                     |
 |---------------------------|-------------------------------------------------|
-| aero.coin                 | Display the number of coin players.             |
+| coinscore.coin            | Display the number of coin players.             |
 
 # Ideas, Questions and Support
 <a href="https://github.com/XeonMZ/CoinScore/issues/new">create an issue</a>/<a href="https://github.com/XeonMZ/CoinScore/discussions/new">start a discussion</a>.
