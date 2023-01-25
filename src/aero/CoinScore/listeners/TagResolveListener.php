@@ -24,12 +24,12 @@ class TagResolveListener implements Listener{
 		$tags = explode('.', $tag->getName(), 2);
 		$value = "";
 
-		if($tags[0] !== 'coin' || count($tags) < 2){
+		if($tags[0] !== 'coinscore' || count($tags) < 2){
 			return;
 		}
 
 		switch($tags[1]){
-			case "aero":
+			case "coin":
 				$value = CoinAPI::getInstance()->myCoin($event->getPlayer());
 				break;
 		}
